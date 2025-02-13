@@ -1,0 +1,26 @@
+{
+  "background_color": "#4f5963",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "SEU_JOGO",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "SEU_JOGO",
+  "start_url": "index.html",
+  "theme_color": "#4f5963",
+  "id": "br.dev.ufersa.sd.grupo-02.anderson",
+  "icons": [
+    {
+      "src": "random-icon.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "IMAGEM.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}
