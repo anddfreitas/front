@@ -1,0 +1,68 @@
+.game-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(7, 40px);
+  gap: 5px;
+  margin-bottom: 20px;
+}
+
+.letter-cell {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #000;
+  cursor: pointer;
+  font-weight: bold;
+  background-color: #fff;
+  color: black; /* Adicionando cor preta para o texto */
+  transition: background-color 0.3s;
+}
+
+.letter-cell.selected {
+  background-color: rgb(255, 211, 36);
+}
+
+.letter-cell.found {
+  background-color: lightgreen; /* Destaque para palavras encontradas */
+  font-weight: bold;
+}
+
+.selected-word, .message {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.message {
+  color: red;
+  font-weight: bold;
+}
+
+.submit-button {
+  cursor: pointer;
+  color: blue;
+  text-decoration: underline;
+  margin-top: 10px;
+}
+
+.scores {
+  margin-bottom: 10px;
+}
+
+.word-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.word-list .found {
+  text-decoration: line-through;
+  color: gray;
+}
